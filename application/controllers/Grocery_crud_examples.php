@@ -245,4 +245,17 @@ class Grocery_crud_examples extends CI_Controller {
 		}
 	}
 
+	public function actor()
+	{
+			$crud = new grocery_CRUD();
+
+			$crud->set_table('actor');
+			$crud->set_subject('actor');
+
+
+			$output = $crud->render();
+
+			$this->_example_output($output);
+	}
+
 }
