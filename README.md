@@ -12,6 +12,7 @@ add 'production' folder, config.php and database.php files
 <h2>Grocery CRUD 1.6.3</h2>
 Admin system in 30 seconds!<br/>
 change default icons in the editor<br/>
+add elFinder <a href="https://github.com/Studio-42/elFinder" target="_blank">link</a>   <br/>
 
 <a href="https://www.grocerycrud.com" target="_blank">link</a>
 
