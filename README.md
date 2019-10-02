@@ -1,4 +1,4 @@
-# taipa_codeigniter
+# codeigniter taipa pack
 Codeignite + libraries
 
 <h2>Codeigniter 3.1.10</h2>
@@ -23,4 +23,8 @@ Gallery system in 30 seconds!<br/>
 <h2>Ion Auth 3</h2>
 Simple and Lightweight Auth System <br/>
 <a href="http://benedmunds.com/ion_auth" target="_blank">link</a>
+
+<h2>HMVC</h2>
+Create HMVC modules + fix bugs<br/>
+<a href="https://github.com/jenssegers/codeigniter-hmvc-modules" target="_blank">link</a>
 

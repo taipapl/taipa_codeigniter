@@ -1,15 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller {
+class Main extends MX_Controller {
 
 	public function index()
 	{
-
-		$this->load->library('migration');
-
-
-
 		$this->load->view('main');
 	}
 }
