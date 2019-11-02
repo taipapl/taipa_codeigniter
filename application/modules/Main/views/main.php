@@ -67,8 +67,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
+
+<ul>
+	<li>
+		<?=anchor(base_url().'pl','PL', array('class'=>'uk-button uk-button-success uk-button-mini '))?>
+	</li>
+	
+	<li>		
+		<?=anchor(base_url().'en','EN', array('class'=>'uk-button uk-button-success uk-button-mini'))?>
+	</li>
+	
+</ul>
+
 <div id="container">
-	<h1>Welcome to CodeIgniter HMVC! -  <?=(!$this->ion_auth->logged_in())?'no login':'login'?>	</h1>
+
+
+
+
+	<h1> <?=lang('welcome')?> -  <?=(!$this->ion_auth->logged_in())?'no login':'login'?>	</h1>
 
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>

@@ -28,3 +28,6 @@ Simple and Lightweight Auth System <br/>
 Create HMVC modules + fix bugs<br/>
 <a href="https://github.com/jenssegers/codeigniter-hmvc-modules" target="_blank">link</a>
 
+<h2>Codeigniter switch language</h2>
+Switch language with URL - Polish English<br/>
+
