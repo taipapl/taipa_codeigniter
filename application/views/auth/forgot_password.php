@@ -1,15 +1,43 @@
-<h1><?php echo lang('forgot_password_heading');?></h1>
-<p><?php echo sprintf(lang('forgot_password_subheading'), $identity_label);?></p>
+<div class="uk-container uk-container-center ">
 
-<div id="infoMessage"><?php echo $message;?></div>
+    <div class="uk-grid uk-margin-bottom">
 
-<?php echo form_open("auth/forgot_password");?>
+        <div class="uk-width-1-1">
 
-      <p>
-      	<label for="identity"><?php echo (($type=='email') ? sprintf(lang('forgot_password_email_label'), $identity_label) : sprintf(lang('forgot_password_identity_label'), $identity_label));?></label> <br />
-      	<?php echo form_input($identity);?>
-      </p>
+            <h1><?php echo lang('forgot_password_heading'); ?></h1>
+        </div>
+    </div>
 
-      <p><?php echo form_submit('submit', lang('forgot_password_submit_btn'));?></p>
 
-<?php echo form_close();?>
+    <div class="uk-grid uk-margin-large-bottom uk-margin-top-remove">
+
+        <div class="uk-width-1-1">
+
+            <div class="uk-panel uk-panel-box">
+
+
+                <p><?php echo sprintf(lang('forgot_password_subheading'), $identity_label); ?></p>
+
+                <div id="infoMessage"><?php echo $message; ?></div>
+
+                <?php echo form_open("auth/forgot_password", array('class' => 'uk-panel uk-panel-box uk-form')); ?>
+
+                <div class="uk-form-row uk-margin-bottom">
+
+                    <?php echo form_input($identity); ?>
+                </div>
+
+                <div class="uk-form-row uk-margin-bottom">
+                    <?php echo form_submit('submit', lang('forgot_password_submit_btn'), array('class' => 'uk-button uk-button-default')); ?>
+                </div>
+
+                <?php echo form_close(); ?>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
