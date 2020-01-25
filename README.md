@@ -8,6 +8,8 @@ add email.php empty file<br/>
 add pagination.php empty file<br/>
 add .htaccess file<br/>
 add 'production' folder, config.php and database.php files
+add new $this->load->template('') - tempate include header and footer
+
 
 <h2>Grocery CRUD 1.6.3</h2>
 Admin system in 30 seconds!<br/>
@@ -30,4 +32,9 @@ Create HMVC modules + fix bugs<br/>
 
 <h2>Codeigniter switch language</h2>
 Switch language with URL - Polish English<br/>
+
+<h2>UIKit 2</h2>
+For my best CSS frmework<br/>
+<a href="https://getuikit.com/v2/index.html" target="_blank">link</a>
+
 
