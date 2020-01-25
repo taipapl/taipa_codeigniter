@@ -7,7 +7,7 @@ PHP framework
 add email.php empty file<br/>
 add pagination.php empty file<br/>
 add .htaccess file<br/>
-add 'production' folder, config.php and database.php files
+add 'production' folder, config.php and database.php files<br/>
 add new $this->load->template('') - tempate include header and footer
 
 
